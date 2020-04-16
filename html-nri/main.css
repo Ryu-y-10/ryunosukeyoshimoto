@@ -66,12 +66,14 @@ header {
 .header-menu {
     display: flex;
     padding-top: 10px;
+   
 }
 .header-menu img:hover {
     opacity: 0.5;
 }
-.menu img {
-    border: 1px solid #333;
+.menu a {
+    color: #000;
+    font-size: 1.4rem;
 }
 .nav img {
     width:20px;
