@@ -158,9 +158,10 @@ header {
 }
 .sns-link li:first-child::before {
     content: "Share";
+    font-size: 0.8rem;
     position: absolute;
     top: 5px;
-    left:-70px;
+    left:-60px;
     padding-right: 20px;
 }
 .main-contents h2::before {
