@@ -7,7 +7,10 @@
     <meta name="description"
         content="野村総合研究所（NRI）の公式ホームページです。NRIからの提言や調査・レポート、商品サービス、ITソリューション事例、IR情報、採用情報、CSR情報などを掲載しています。">
     <title>NRIの強み：ビジネスモデルの特徴 | 企業情報 | 野村総合研究所(NRI)</title>
-    <!--CSS未実装のためlink省略-->
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="nri-images/favicon.ico">
+    <link rel="apple-touch-icon" href="nri-images/apple-touch-icon.png">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
 
 <body>
@@ -28,15 +31,15 @@
                 </ul>
             </div>
             <div class="header-menu">
-                <div class="btn search">
+                <div class="nav search">
                     <img src="nri-images/glass.svg" alt="検索">
                 </div>
-                <div class="btn language">
+                <div class="nav language">
                     <img src="nri-images/earth.svg" alt="言語">
                 </div>
                 <!--humburgermenu未実装、仮置き-->
-                <div class="btn menu">
-                    <img src="#" alt="メニュー">
+                <div class="nav menu">
+                    <a href="#"><i class="fas fa-bars"></i></a>
                 </div>
                 <!--humbergermenuここまで-->
             </div>
@@ -46,7 +49,6 @@
     <main>
         <nav>
             <div class="nav-container">
-                <!--::afterで">"挿し込む↓-->
                 <div class="breadcrumbs">
                     <ol>
                         <li><a href="#">NRI トップ</a></li>
@@ -58,8 +60,8 @@
         </nav>
         <div class="headline-container">
             <div class="headline">
-                <p>NRIの強み<p>
-                        <p>NRIのデジタルビジネス戦略</p>
+                <p class="headlinesub">NRIの強み</p>
+                <p class="headlinemain">NRIのデジタルビジネス戦略</p>
             </div>
         </div>
         <div class="container">
@@ -67,17 +69,17 @@
                 <!--::beforeで"Share"挿し込む↓-->
                 <ul>
                     <li><a href="#"><img src="nri-images/icon-facebook.svg" alt="Facebook"></a></li>
-                    <li><a href="#"><img src="nri-images/icon-twitter.svg" alt="Twitter"></a></li>
+                    <li><a href="#"><img class="twitter" src="nri-images/icon-twitter.svg" alt="Twitter"></a></li>
                     <li><a href="#"><img src="nri-images/icon-linkedin.svg" alt="LinkedIn"></a></li>
                 </ul>
             </div>
             <div class="main-contents">
                 <!--::beforeでh２に画像差し込む-->
-                <h1>NRIのデジタルビジネス戦略</h1>
+                <h2>NRIのデジタルビジネス戦略</h2>
                 <p>NRI では、企業の DX に向けた取り組みについて、既存ビジネスの業務プロセス変革に寄与する DX を「DX1.0」、デジタルで新しいビジネスモデルそのものを生み出す DX
                     を「DX2.0」と定義しています。
                 </p>
-                <p>DX を実現するためには、業務プロセス変革やビジネスモデル創造、そして、それらを実現する IT を同時並行で、共に議論しながら、かつ、スピーディーに実装できる戦略パートナーが必要です。NRI
+                <p clas="main-article">DX を実現するためには、業務プロセス変革やビジネスモデル創造、そして、それらを実現する IT を同時並行で、共に議論しながら、かつ、スピーディーに実装できる戦略パートナーが必要です。NRI
                     は、コンサルティングと IT ソリューションの人材と機能を併せ持ち、お客さまと併走し、お客さまと仮説検証を繰り返しながらビジネスを創出する「コンソリューション」の提供を強みとして、DX
                     の実現を推進します。
                 </p>
@@ -85,20 +87,22 @@
             <div class="main-image">
                 <img src="nri-images/story06_img_01.jpg" alt="デジタルビジネス戦略">
             </div>
-            <div class="pdf">
+            <div class="contents-pdf">
                 <!--::afterでpdficon挿し込む↓-->
                 <a href="#" target="_blank">デジタルが拓く近未来（NRIのDX）<br>（4.06 MB）</a>
             </div>
             <div class="contents-link">
                 <div class="link-feature">
+                    <!--::beforで&lt;入れます↓-->
                     <p><a href="#">ビジネスモデルの特徴</a></p>
                 </div>
                 <div class="link-talent">
+                    <!--::afterで入れます↓-->
                     <p><a href="#">人材が支えるNRI</a></p>
                 </div>
             </div>
             <div class="sub-contents">
-                <h2>NRIの強み</h2>
+                <p>NRIの強み</p>
                 <!--display:inline-blockで横並び-->
                 <div class="contents-list">
                     <ul>
@@ -129,10 +133,11 @@
         <div class="info-wrapper">
             <div class="info-container">
                 <div class="heading">
-                    <h2>企業情報</h2>
+                    <h3>企業情報</h3>
                 </div>
+                <!--はすべて::beforeで画像に差し替えます↓-->
                 <div class="info">
-                    <h3>経営方針</h3>
+                    <h4>経営方針</h4>
                     <ul>
                         <li><a href="#">社長メッセージ</a></li>
                         <li><a href="#">企業理念</a></li>
@@ -153,7 +158,7 @@
 
                 </div>
                 <div class="info">
-                    <h3>企業案内</h3>
+                    <h4>企業案内</h4>
                     <ul>
                         <li><a href="#">会社概要</a></li>
                         <li><a href="#">沿革</a></li>
@@ -165,7 +170,7 @@
                     </ul>
                 </div>
                 <div class="info">
-                    <h3>NRIの強み</h3>
+                    <h4>NRIの強み</h4>
                     <ul>
                         <li><a href="#">NRIのあゆみと持続的な成長</a></li>
                         <li><a href="#">問題発見から問題解決まで</a></li>
@@ -179,7 +184,7 @@
                     </ul>
                 </div>
                 <div class="info">
-                    <h3>NRIグループ国内・海外拠点一覧</h3>
+                    <h4>NRIグループ国内・海外拠点一覧</h4>
                     <ul>
                         <li><a href="#">メインオフィス</a></li>
                         <li><a href="#">グループカンパニー</a></li>
@@ -187,7 +192,7 @@
                     </ul>
                 </div>
                 <div class="info">
-                    <h3>事業案内</h3>
+                    <h4>事業案内</h4>
                     <ul>
                         <li><a href="#">コンサルティング</a></li>
                         <li><a href="#">金融ITソリューション</a></li>
@@ -210,86 +215,89 @@
                     <li><a href="#"><img src="nri-images/icon-linkedin.svg" alt="LinkedIn"></a></li>
                 </ul>
             </div>
-            <div class="footer-list">
-                <div class="footer-link">
-                    <h3><a href="#">ナレッジ・インサイト</a></h3>
-                    <ul>
-                        <li><a href="#">刊行物</a></li>
-                        <li><a href="#">書籍</a></li>
-                        <li><a href="#">コラム</a></li>
-                        <li><a href="#">セミナー資料</a></li>
-                        <li><a href="#">レポート</a></li>
-                        <li><a href="#">用語解説</a></li>
-                    </ul>
+            <!--::beforeで”＞”画像挿し込み↓-->
+            <div class="list-wrap">
+                <div class="footer-list">
+                    <div class="footer-link">
+                        <h3><a href="#">ナレッジ・インサイト</a></h3>
+                        <ul>
+                            <li><a href="#">刊行物</a></li>
+                            <li><a href="#">書籍</a></li>
+                            <li><a href="#">コラム</a></li>
+                            <li><a href="#">セミナー資料</a></li>
+                            <li><a href="#">レポート</a></li>
+                            <li><a href="#">用語解説</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-link">
+                        <h3><a href="#">ソリューション・サービス</a></h3>
+                        <ul>
+                            <li><a href="#">マネジメントコンサルティング</a></li>
+                            <li><a href="#">システムコンサルティング</a></li>
+                            <li><a href="#">金融ITソリューション</a></li>
+                            <li><a href="#">産業ITソリューション</a></li>
+                            <li><a href="#">IT基盤ソリューション</a></li>
+                            <li><a href="#">お客様事例</a></li>
+                            <li><a href="#">未来創発センター</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-link">
+                        <h3><a href="#">サステナビリティ</a></h3>
+                        <ul>
+                            <li><a href="#">サステナビリティマネジメント</a></li>
+                            <li><a href="#">取り組み</a></li>
+                            <li><a href="#">ライブラリ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-link">
+                        <h3><a href="#">ニュース</a></h3>
+                        <ul>
+                            <li><a href="#">ニュースリリース</a></li>
+                            <li><a href="#">お知らせ</a></li>
+                            <li><a href="#">イベント</a></li>
+                        </ul>
+                    </div>
+
                 </div>
-                <div class="footer-link">
-                    <h3><a href="#">ソリューション・サービス</a></h3>
-                    <ul>
-                        <li><a href="#">マネジメントコンサルティング</a></li>
-                        <li><a href="#">システムコンサルティング</a></li>
-                        <li><a href="#">金融ITソリューション</a></li>
-                        <li><a href="#">産業ITソリューション</a></li>
-                        <li><a href="#">IT基盤ソリューション</a></li>
-                        <li><a href="#">お客様事例</a></li>
-                        <li><a href="#">未来創発センター</a></li>
-                    </ul>
-                </div>
-                <div class="footer-link">
-                    <h3><a href="#">サステナビリティ</a></h3>
-                    <ul>
-                        <li><a href="#">サステナビリティマネジメント</a></li>
-                        <li><a href="#">取り組み</a></li>
-                        <li><a href="#">ライブラリ</a></li>
-                    </ul>
-                </div>
-                <div class="footer-link">
-                    <h3><a href="#">ニュース</a></h3>
-                    <ul>
-                        <li><a href="#">ニュースリリース</a></li>
-                        <li><a href="#">お知らせ</a></li>
-                        <li><a href="#">イベント</a></li>
-                    </ul>
+                <div class="footer-list">
+                    <div class="footer-link">
+                        <h3><a href="#">企業情報</a></h3>
+                        <ul>
+                            <li><a href="#">社長メッセージ</a></li>
+                            <li><a href="#">経営方針</a></li>
+                            <li><a href="#">NRIの強み</a></li>
+                            <li><a href="#">企業案内</a></li>
+                            <li><a href="#">国内・海外拠点</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-link">
+                        <h3><a href="#">株主・投資家情報（IR）</a></h3>
+                        <ul>
+                            <li><a href="#">IRニュース</a></li>
+                            <li><a href="#">IRイベント</a></li>
+                            <li><a href="#">経営方針</a></li>
+                            <li><a href="#">財務・業績</a></li>
+                            <li><a href="#">IRライブラリ</a></li>
+                            <li><a href="#">株式・格付情報</a></li>
+                            <li><a href="#">個人投資家の皆さまへ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-link infomation">
+                        <ul>
+                            <li><a href="#">採用情報</a></li>
+                            <li><a href="#">NRI&nbsp;JOURNAL</a></li>
+                            <li><a href="#">NRI&nbsp;PEOPLE</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-link infomation">
+                        <ul>
+                            <li><a href="#">メディア関係の皆様へ</a></li>
+                            <li><a href="#">ビジネスパートナーの皆様へ</a></li>
+                            <li><a href="#">サイトマップ</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="footer-list">
-                <div class="footer-link">
-                    <h3><a href="#">企業情報</a></h3>
-                    <ul>
-                        <li><a href="#">社長メッセージ</a></li>
-                        <li><a href="#">経営方針</a></li>
-                        <li><a href="#">NRIの強み</a></li>
-                        <li><a href="#">企業案内</a></li>
-                        <li><a href="#">国内・海外拠点</a></li>
-                    </ul>
-                </div>
-                <div class="footer-link">
-                    <h3><a href="#">株主・投資家情報（IR)</a></h3>
-                    <ul>
-                        <li><a href="#">IRニュース</a></li>
-                        <li><a href="#">IRイベント</a></li>
-                        <li><a href="#">経営方針</a></li>
-                        <li><a href="#">財務・業績</a></li>
-                        <li><a href="#">IRライブラリ</a></li>
-                        <li><a href="#">株式・格付情報</a></li>
-                        <li><a href="#">個人投資家の皆さまへ</a></li>
-                    </ul>
-                </div>
-                <div class="footer-link">
-                    <ul>
-                        <li><a href="#">採用情報</a></li>
-                        <li><a href="#">NRI&nbsp;JOURNAL</a></li>
-                        <li><a href="#">NRI&nbsp;PEOPLE</a></li>
-                    </ul>
-                </div>
-                <div class="footer-link">
-                    <ul>
-                        <li><a href="#">メディア関係の皆様へ</a></li>
-                        <li><a href="#">ビジネスパートナーの皆様へ</a></li>
-                        <li><a href="#">サイトマップ</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
     </main>
     <footer>
         <div class="footer-container">
