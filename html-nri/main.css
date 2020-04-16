@@ -428,7 +428,7 @@ footer{
 .footer-list-item li{
     display: inline-block;
     padding-right: 10px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 .footer-list-item li:hover {
     text-decoration: underline;
@@ -445,7 +445,7 @@ footer{
 }
 .footer-container p {
     padding-top: 20px;
-    font-size: 0.3rem;
+    font-size: 0.4rem;
 }
 
 
