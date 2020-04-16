@@ -177,8 +177,18 @@ header {
     margin-bottom:40px;
 }
 .main-contents {
-    padding-bottom: 40px;
+    padding-bottom: 10px;
 }
+.main-contents p {
+    line-height: 1.88;
+    font-size: 0.99rem;
+    color: #333;
+    padding-bottom:30px;
+    font-feature-settings: "palt";
+    
+    
+}
+
 .contents-pdf a {
     display: inline-block;
     background: #005bac;
