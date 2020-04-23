@@ -215,7 +215,8 @@ li {
 .catalog-description {
     padding-bottom: 18px;
 }
-button {
+.pdf-btn {
+    display: inline-block;
     margin-top: 40px;
     width: 344px;
     height: 56px;
@@ -224,6 +225,10 @@ button {
     font: 400 18px/53px "Noto Sans";
     letter-spacing: 1.8px;
     color: #707070;
+}
+.pdf-btn:hover {
+    background: #adadad;
+    color: #fff;
 }
 .contact {
     height: 464px;
@@ -267,6 +272,10 @@ textarea {
     letter-spacing: 1.4px;
     color: #707070;
     line-height: 14px;
+}
+.submit-btn:hover {
+    background: #adadad;
+    color: #fff;
 }
 input::placeholder,textarea::placeholder {
     font: 400 12px/53px "Noto Sans";
