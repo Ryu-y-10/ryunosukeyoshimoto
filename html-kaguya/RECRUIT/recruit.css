@@ -1,0 +1,116 @@
+@charset "utf-8";
+html,body,main,section,div,p,h1,h2,ul,li,input {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #fcfcfc 0% 0% no-repeat padding-box;
+    font-family: "Noto Sans","Hiragino Kaku Gothic ProN",  Meiryo,  sans-serif;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+}
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #b2b2b2;
+}
+li {
+    list-style: none;
+}
+.header {
+    height: 56px;
+    width: 1280px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo {
+    width:38.49px;
+    height:24px;
+    margin: 16px 0 16px 96px;
+}
+
+.global-nav {
+    font-size: 0;
+    display: flex;
+    align-items: flex-end;
+}
+.global-nav .nav-item {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    margin: 0 56px 8px 0;
+}
+.global-nav .nav-item:last-child {
+    margin-right: 0;
+}
+.global-nav .nav-item:last-child {
+    margin-right: 96px;
+}
+.global-nav .nav-item .homelink{
+    color: #3b3b3b;
+}
+
+.footer {
+    width: 1280px;
+    height: 240px;
+    margin: 0 auto;
+    background: #918f89;
+    text-align: center;
+}
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0;
+}
+.footer-logo {
+    width: 63.69px;
+    height: 40px;
+    margin: 120px  auto 0 224px;
+}
+.footer-item {
+    display: inline-block;
+    margin: 120px 32px 0 0 ;
+}
+.footer-item:last-child {
+    margin-right: 0;
+}
+.footer-item:last-child {
+    margin-right: 224px;
+}
+.footer-item a {
+    font: 400 18px/24px "Noto Sans";
+    letter-spacing: 0px;
+    color: #fff;
+}
+.copyright {
+    font: 400 11px/16px "Noto Sans";
+    letter-spacing: 0.44px;
+    color: #fff;
+    margin-top: 44px;
+}
+.main {
+    margin: 0 auto;
+    width: 1280px;
+}
+.eye-catch {
+    height: 456px;
+    background: url(../IMAGES/recruit_top.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 161px;
+}
+.title {
+    font: 400 30px/53px "Noto Sans";
+    letter-spacing: 3px;
+    color: #918f89;
+    position: absolute;
+    top: 248px;
+    left: 228px;
+}
