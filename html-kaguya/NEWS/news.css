@@ -117,7 +117,7 @@ li {
     left: 228px;
 }
 .news {
-    height: 456px;
+    height: 400px;
     text-align: center;
     margin-bottom: 320px;
 }
@@ -125,13 +125,12 @@ li {
     font: 400 23px/53px "Noto Sans";
     letter-spacing: 2.3px;
     color: #3b3b3b;
-    line-height: 32px;
-    padding-bottom: 48px;
+    line-height: 1;
+    margin-bottom: 56px;
 }
 .news-list {
     display: flex;
     justify-content: space-around;
-    padding-bottom: 32px;   
 }
 .news-item {
     width: 320px;
