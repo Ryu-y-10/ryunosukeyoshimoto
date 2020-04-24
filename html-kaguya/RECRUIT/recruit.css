@@ -114,3 +114,20 @@ li {
     top: 248px;
     left: 228px;
 }
+.recruit {
+    margin-bottom:320px;
+}
+table {
+    margin:0  auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    color: #3b3b3b;
+    border-radius: 10px;
+}
+th,td {
+    border: 1px solid #707070;
+}
+.headline {
+    padding: 136px 48px;
+    background: #918f89;
+}
