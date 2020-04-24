@@ -240,7 +240,7 @@ li {
 .title-contact {
     font: 400 24px/53px "Noto Sans";
     letter-spacing: 2.4px;
-    color: #3B3B3B;
+    color: #3b3b3b;
     line-height: 33px;
     margin-bottom: 47px;
 
@@ -281,7 +281,7 @@ input::placeholder,textarea::placeholder {
     font: 400 12px/53px "Noto Sans";
     letter-spacing: 0.6px;
     line-height: 1;
-    color: #3B3B3B;
+    color: #3b3b3b;
     opacity: 0.4;
 }
 .recruit {
