@@ -57,6 +57,30 @@ li {
 .global-nav .nav-item .homelink{
     color: #3b3b3b;
 }
+@media screen and (max-width: 375px){
+    body {
+        width: 375px;
+    }
+  
+    .header {
+        background: #918f89;
+        width: 100%;
+    }
+    .global-nav {
+        display: none;
+    }
+ 
+    .header-logo img{
+        display: none;
+    }
+    .header-logo {
+        margin: 0;
+        background: url(../IMAGES/logo_footer.png);
+        background-size: cover;
+        margin: 16px auto;
+    }
+  
+}
 
 .footer {
     width: 1280px;
@@ -96,6 +120,22 @@ li {
     color: #fff;
     margin-top: 44px;
 }
+@media screen and (max-width: 375px){
+    .footer {
+        width: 100%;
+    }
+    .footer-inner ul {
+        display: none;
+    }
+    .footer-logo {
+        margin: 72px auto 82px;
+    }
+    .copyright {
+        margin: 0 auto 32px;
+    }
+
+
+}
 .main {
     margin: 0 auto;
     width: 1280px;
@@ -113,6 +153,29 @@ li {
     position: absolute;
     top: 248px;
     left: 228px;
+}
+@media screen and (max-width: 375px){
+    .eye-catch {
+        background: transparent url(../IMAGES/recruit_top_sp.png)no-repeat;
+        background-size: 100% 648px;
+        margin-bottom:160px;
+        width: 375px;
+        height: 648px;
+    }
+    .title {
+        font: 400 25px/53px "Noto Sans";
+        letter-spacing: 2.5px;
+        width:137px;
+        height: 32px;
+        position: relative;
+        top:auto;
+        left:auto;
+        padding: 0;
+        top: 232px;
+        left: 134px;
+        color: #3b3b3b;
+        line-height: 32px;
+    }
 }
 .recruit {
     margin-bottom:320px;
@@ -193,4 +256,32 @@ li {
     position: relative;
     left: -10px;
     top: -3px;
+}
+@media screen and (max-width: 375px){
+    .recruit {
+        width: 375px;
+        margin-bottom: 256px;
+    } 
+    .information {
+        margin: 0 auto;
+        width: 344px;
+    }   
+    .sub-title {
+        margin-bottom: 40px;
+    }
+    .recruit-list li {
+        margin-left: 21px;
+    }
+    .heading {
+        text-align: left;
+        font: 400 15px/20px "Noto Sans";
+        letter-spacing: 0px;
+        padding: 17px 0 0 0;
+        margin-bottom: 8px;
+    }
+    .recruit-list {
+        font: 400 13px/23px "Noto Sans";
+        letter-spacing: 0px;
+    
+    }
 }
