@@ -27,7 +27,7 @@ li {
 }
 .header {
     height: 56px;
-    max-width: 1280px;
+    width: 1280px;
     margin:0 auto;
     display: flex;
     justify-content: space-between;
@@ -63,9 +63,12 @@ li {
     body {
         width: 375px;
     }
+  
     .header {
         background: #918f89;
-        width: 100%;
+        width: 375px;
+        position:fixed;
+        z-index: 10;
     }
     .global-nav {
         display: none;
@@ -125,6 +128,7 @@ li {
     .footer {
         width: 100%;
         margin-top: 456px;
+        height: 232px;
 
     }
     .footer-inner ul {
@@ -140,21 +144,21 @@ li {
 }
 
 .main {
-    margin: 0 auto;
-    width: 1280px;
+    width: 100%;
 }
 .eye-catch {
     height: 456px;
     background: url(../IMAGES/news_top.png) no-repeat;
     background-size: cover;
     margin-bottom: 160px;
+    position: relative;
 }
 .title {
     font: 400 30px/53px "Noto Sans";
     letter-spacing: 3px;
     color: #918f89;
     position: absolute;
-    top: 247px;
+    top: 191px;
     left: 228px;
 }
 @media screen and (max-width: 375px){
