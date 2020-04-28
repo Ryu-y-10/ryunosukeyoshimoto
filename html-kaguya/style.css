@@ -67,6 +67,8 @@ li {
     .header {
         background: #918f89;
         width: 100%;
+        position:fixed;
+        z-index: 10;
     }
     .global-nav {
         display: none;
