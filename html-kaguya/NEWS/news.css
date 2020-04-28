@@ -27,7 +27,7 @@ li {
 }
 .header {
     height: 56px;
-    width: 1280px;
+    width: 100%;
     margin:0 auto;
     display: flex;
     justify-content: space-between;
@@ -172,11 +172,9 @@ li {
     .title {
         font: 400 25px/53px "Noto Sans";
         letter-spacing: 2.5px;
-        width:auto;
-        height: auto;
+        width: 84px;
+        height: 32px;
         position: relative;
-        top:auto;
-        left:auto;
         padding: 0;
         top: 232px;
         left: 149px;
