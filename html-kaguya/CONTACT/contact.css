@@ -149,13 +149,14 @@ footer {
     background: url(../IMAGES/contact_top.png) no-repeat;
     background-size: cover;
     margin-bottom: 160px;
+    position: relative;
 }
 .title {
     font: 400 30px/53px "Noto Sans";
     letter-spacing: 3px;
     color: #fcfcfc;
     position: absolute;
-    top: 248px;
+    top: 192px;
     left: 228px;
 }
 @media screen and (max-width: 375px){
